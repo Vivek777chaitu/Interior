@@ -1,0 +1,388 @@
+<iframe class="absolute top-0 h-full bg-white" srcdoc="<html class=&quot;h-full&quot; lang=&quot;en&quot;><head>
+    <meta charSet=&quot;UTF-8&quot; />
+    <meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot; />
+    <link rel=&quot;preconnect&quot; href=&quot;https://fonts.googleapis.com&quot; />
+    <link
+      rel=&quot;preconnect&quot;
+      href=&quot;https://fonts.gstatic.com&quot;
+      crossOrigin=&quot;anonymous&quot;
+    />
+    <link
+      id=&quot;google-fonts-link&quot;
+      href=&quot;https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;family=Lato:wght@300;400;500;600;700&amp;display=swap&quot;
+      rel=&quot;stylesheet&quot;
+    />
+    <script
+      src=&quot;https://kit.fontawesome.com/8e98006f77.js&quot;
+      crossOrigin=&quot;anonymous&quot;
+    ></script>
+    <script src=&quot;https://cdn.tailwindcss.com&quot;></script>
+    <style>:root { --accent-color: #F76B8C; --accent2-color: #F8AFA6; --accent3-color: #2E8B57; --accent4-color: #F7D06B; --primary-color: #2E8B57; --dark-text-color: #292929; --gray-text-color: #7E7E7E; --button-padding-x: 12px; --button-padding-y: 8px; --font-family-body: 'Lato', sans-serif; --light-text-color: #F7F7F7; --dark-border-color: #1A5F3A; --light-border-color: #CCCCCC; --font-family-heading: 'Poppins', sans-serif; --button-rounded-radius: 6px; --dark-background-color: #1F1F1F; --light-background-color: #E9EDF6; --medium-background-color: #90EE90; --primary-button-bg-color: #2E8B57; --primary-button-text-color: #FFFFFF; --secondary-button-bg-color: #F2D1B3; --secondary-button-text-color: #2E8B57; --primary-button-hover-bg-color: #1A5F3A; --primary-button-hover-text-color: #FFFFFF; --secondary-button-hover-bg-color: #D8B28F; --secondary-button-hover-text-color: #1A5F3A; }</style>
+    <style>
+
+.hovered-element {
+  outline: #3871E0 dashed 2px;
+}
+
+.clicked-element {
+  outline: #3871E0 solid 2px;
+}
+
+.clicked-code-section {
+  border: #3B82F6 solid 2px;
+}
+</style>
+    <link rel=&quot;icon&quot; type=&quot;image/png&quot; href=&quot;https://landingsite-app-public.s3.us-east-2.amazonaws.com/logos/user/545be15e-86ec-45df-a522-a51e68f58277/31cb8a5d-3001-47f1-91c7-24782fe06d8f-favicon-0.png&quot;>
+<link rel=&quot;apple-touch-icon&quot; type=&quot;image/png&quot; href=&quot;https://landingsite-app-public.s3.us-east-2.amazonaws.com/logos/user/545be15e-86ec-45df-a522-a51e68f58277/31cb8a5d-3001-47f1-91c7-24782fe06d8f-favicon-0.png&quot;>
+  </head><body class=&quot;h-full bg-white&quot;>
+    <div class=&quot;frame-root&quot;>
+      <div class=&quot;frame-content&quot;>
+        <div class=&quot;[font-family:var(--font-family-body)]&quot;><div><header class=&quot;relative z-50 code-section&quot; id=&quot;sup4yu7&quot;>
+  <div class=&quot;relative hidden lg:block&quot;>
+    <div class=&quot;absolute left-0 h-full w-1/2 bg-[var(--dark-background-color)]&quot;></div>
+    <div class=&quot;absolute right-0 h-full w-1/2 bg-[var(--primary-color)]&quot;></div>
+    <div class=&quot;relative mx-auto w-full&quot;>
+      <div class=&quot;container mx-auto flex&quot;>
+        <div class=&quot;w-3/4 bg-[var(--dark-background-color)] pl-6 xl:pl-12 2xl:pl-36&quot;>
+          <div class=&quot;flex items-center justify-between&quot;>
+            <div class=&quot;py-3&quot;>
+              <i class=&quot;fa-solid fa-envelope mr-4 text-[var(--primary-color)]&quot; aria-hidden=&quot;true&quot;></i>
+              <span class=&quot;text-sm font-thin text-[var(--light-text-color)]&quot;>info@inspireambience.com</span>
+              <span class=&quot;mx-4 text-[var(--light-text-color)]&quot;>|</span>
+              <i class=&quot;fa-solid fa-location-dot mr-4 text-[var(--primary-color)]&quot; aria-hidden=&quot;true&quot;></i>
+              <span class=&quot;text-sm font-thin text-[var(--light-text-color)]&quot;>Hyderabad, India</span>
+            </div>
+            <div class=&quot;h-12 w-10 bg-gradient-to-tr from-[var(--dark-background-color)] from-50% to-[var(--primary-color)] to-50%&quot;></div>
+          </div>
+        </div>
+        <div class=&quot;w-1/4 bg-[var(--primary-color)] pr-6 xl:pr-12 2xl:pr-32&quot;>
+          <div class=&quot;flex items-center justify-end py-3&quot;>
+            <a href=&quot;/&quot; class=&quot;mr-3&quot; aria-label=&quot;Follow us on Facebook&quot;>
+              <div class=&quot;flex h-6 w-6 items-center justify-center rounded-full bg-[#ffffff]&quot;>
+                <i class=&quot;fa-brands fa-facebook-f fa-xs text-[var(--primary-color)]&quot; aria-hidden=&quot;true&quot;></i>
+              </div>
+            </a>
+            <a href=&quot;/&quot; class=&quot;mr-3&quot; aria-label=&quot;Follow us on Twitter&quot;>
+              <div class=&quot;flex h-6 w-6 items-center justify-center rounded-full bg-[#ffffff]&quot;>
+                <i class=&quot;fa-brands fa-x-twitter fa-xs text-[var(--primary-color)]&quot; aria-hidden=&quot;true&quot;></i>
+              </div>
+            </a>
+            <a href=&quot;/&quot; class=&quot;mr-3&quot; aria-label=&quot;Follow us on Instagram&quot;>
+              <div class=&quot;flex h-6 w-6 items-center justify-center rounded-full bg-[#ffffff]&quot;>
+                <i class=&quot;fa-brands fa-instagram fa-xs text-[var(--primary-color)]&quot; aria-hidden=&quot;true&quot;></i>
+              </div>
+            </a>
+            <a href=&quot;/&quot; class=&quot;mr-3&quot; aria-label=&quot;Connect with us on LinkedIn&quot;>
+              <div class=&quot;flex h-6 w-6 items-center justify-center rounded-full bg-[#ffffff]&quot;>
+                <i class=&quot;fa-brands fa-linkedin-in fa-xs text-[var(--primary-color)]&quot; aria-hidden=&quot;true&quot;></i>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <nav class=&quot;container mx-auto py-6&quot;>
+    <div class=&quot;flex items-center justify-between relative&quot;>
+      <div class=&quot;pl-6 xl:pl-12 2xl:pl-36&quot;>
+        <a href=&quot;/&quot; class=&quot;text-xl font-semibold text-[var(--primary-color)] [font-family:var(--font-family-heading)] sm:text-3xl&quot; data-logo=&quot;&quot;><img src=&quot;https://imagedelivery.net/xaKlCos5cTg_1RWzIu_h-A/9b8b1546-ea78-4e0a-8973-365795c69700/publicContain&quot; alt=&quot;Inspire Ambience Logo&quot; class=&quot;h-20&quot;></a>
+      </div>
+      <button id=&quot;mobile-menu-button&quot; data-collapse-toggle=&quot;navigation-menu&quot; type=&quot;button&quot; class=&quot;pr-6 text-gray-800 lg:hidden&quot; aria-controls=&quot;navigation-menu&quot; aria-expanded=&quot;false&quot; aria-label=&quot;Navigation Menu&quot;>
+        <i class=&quot;fa-regular fa-bars feather feather-menu&quot; data-fontawesome-icon=&quot;fa-bars&quot; data-landingsite-gallery-type=&quot;icon&quot; aria-hidden=&quot;true&quot;></i>
+      </button>
+      <div id=&quot;navigation-menu&quot; class=&quot;hidden absolute z-50 left-0 top-full mt-4 w-full bg-[#ffffff] pb-4 lg:pr-6 lg:static lg:mt-0 lg:flex flex-1 lg:items-center lg:justify-between lg:pb-0 xl:pr-12 2xl:pr-36&quot;>
+        <ul class=&quot;flex flex-col lg:px-6 lg:flex-row flex-1 lg:justify-center lg:items-center lg:space-x-6&quot;>
+          <li class=&quot;flex items-center p-2 border-t border-gray-200 lg:border-t-transparent lg:p-0&quot;>
+            <a href=&quot;/about&quot; class=&quot;text-xs font-semibold uppercase tracking-widest text-[var(--dark-text-color)] 2xl:text-sm&quot;>About Us</a>
+          </li>
+          <li class=&quot;flex items-center p-2 border-t border-gray-200 lg:border-t-transparent lg:p-0&quot;>
+            <div class=&quot;group relative&quot;>
+              <button class=&quot;flex w-full cursor-pointer flex-row items-center gap-1 text-xs font-semibold uppercase tracking-widest text-[var(--dark-text-color)] 2xl:text-sm lg:justify-center&quot;>
+                <span>Services</span>
+                <i class=&quot;fa-regular fa-chevron-down ml-1 transition-['rotate'] lg:group-hover:rotate-[180deg]&quot; aria-hidden=&quot;true&quot;></i>
+              </button>
+              <div class=&quot;left-0 top-full z-50 hidden w-full text-black lg:absolute lg:w-[260px] lg:pt-2 lg:group-hover:block&quot;>
+                <div class=&quot;mt-2 bg-white p-1.5 lg:rounded-lg lg:border lg:border-gray-200 lg:shadow-sm&quot;>
+                  <a class=&quot;block cursor-pointer border-b border-solid px-3 py-1.5 hover:bg-[#1900410a] lg:py-3 lg:font-medium&quot; href=&quot;/services#tv-units&quot;>TV Units</a>
+                  <a class=&quot;block cursor-pointer border-b border-solid px-3 py-1.5 hover:bg-[#1900410a] lg:py-3 lg:font-medium&quot; href=&quot;/services#modular-kitchens&quot;>Modular Kitchens</a>
+                  <a class=&quot;block cursor-pointer border-b border-solid px-3 py-1.5 hover:bg-[#1900410a] lg:py-3 lg:font-medium&quot; href=&quot;/services#wardrobes&quot;>Wardrobes</a>
+                  <a class=&quot;block cursor-pointer px-3 py-1.5 hover:bg-[#1900410a] lg:py-3 lg:font-medium&quot; href=&quot;/services#office-spaces&quot;>Office Spaces</a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class=&quot;flex items-center p-2 border-t border-gray-200 lg:border-t-transparent lg:p-0&quot;>
+            <a href=&quot;/portfolio&quot; class=&quot;text-xs font-semibold uppercase tracking-widest text-[var(--dark-text-color)] 2xl:text-sm&quot;>Portfolio</a>
+          </li>
+          <li class=&quot;flex items-center p-2 border-t border-gray-200 lg:border-t-transparent lg:p-0&quot;>
+            <a href=&quot;/blog&quot; class=&quot;text-xs font-semibold uppercase tracking-widest text-[var(--dark-text-color)] 2xl:text-sm&quot;>Blog</a>
+          </li>
+        </ul>
+        <a href=&quot;/contact&quot; class=&quot;flex flex-col mt-4 lg:flex-row items-center space-y-4 lg:mt-0 lg:space-y-0 lg:space-x-4&quot;>
+          <div class=&quot;flex items-center space-x-4&quot;>
+            <div class=&quot;flex h-12 w-12 items-center justify-center rounded-full bg-[var(--primary-button-bg-color)]&quot;>
+              <i class=&quot;fa-solid fa-phone fa-xl text-[var(--primary-button-text-color)]&quot; aria-hidden=&quot;true&quot;></i>
+            </div>
+            <div class=&quot;flex flex-col&quot;>
+              <div class=&quot;text-lg font-medium&quot;>Contact Us Today</div>
+              <div class=&quot;text-[var(--gray-text-color)]&quot;>(555) 123-4567</div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </nav>
+</header></div><div><section class=&quot;relative overflow-hidden code-section&quot; id=&quot;skzkuj6&quot;>
+<!-- leave data-seo-image attribute on this div -->
+<div class=&quot;absolute inset-0 z-0 h-full w-full bg-cover bg-center object-cover dont-replace bg-[url('https://imagedelivery.net/xaKlCos5cTg_1RWzIu_h-A/f2834bec-44e0-46e1-c3e7-5befdda57200/public')]&quot; data-landingsite-gallery-type=&quot;image&quot; data-seo-image=&quot;&quot; aria-label=&quot;mock up poster frame in modern interior background, living room, Scandinavian style, 3D render, 3D illustration&quot; data-media=&quot;{&amp;quot;id&amp;quot;:&amp;quot;1406037869&amp;quot;,&amp;quot;src&amp;quot;:&amp;quot;iStock&amp;quot;,&amp;quot;type&amp;quot;:&amp;quot;image&amp;quot;}&quot; src=&quot;https://imagedelivery.net/xaKlCos5cTg_1RWzIu_h-A/f2834bec-44e0-46e1-c3e7-5befdda57200/public&quot; oncontextmenu=&quot;return false;&quot;></div>
+<div class=&quot;relative z-10 h-full w-full px-6 py-20 md:my-32 md:left-24 md:w-1/2 md:p-0 xl:w-1/3&quot;>
+<div class=&quot;flex h-full flex-col justify-center&quot;>
+<div class=&quot;border-[20px] border-[var(--primary-color)] bg-[#ffffff] p-10 text-center lg:text-left &quot;>
+  <h3 class=&quot;pb-4 text-base font-medium uppercase tracking-widest text-[var(--primary-color)]&quot;>Experience Inspire Ambience</h3>
+  <h1 class=&quot;mb-6 border-b-8 border-[var(--primary-color)] text-3xl font-semibold text-[var(--dark-text-color)] [font-family:var(--font-family-heading)] lg:text-5xl&quot;>Transform Your Space into a Work of Art</h1>
+  <p class=&quot;mb-8 text-base font-normal tracking-wide text-[var(--gray-text-color)]&quot;>Transform your environment with custom interiors that reflect your lifestyle and aspirations. Inspire Ambience specializes in creating harmonious spaces, from functional office layouts to stunning modular kitchens, ensuring every project meets your vision with precision and artistry.</p>
+  <a href=&quot;/contact&quot; class=&quot;inline-block border border-[var(--dark-text-color)] bg-[var(--primary-button-bg-color)] px-[var(--button-padding-x)] py-[var(--button-padding-y)] text-base font-semibold uppercase tracking-widest text-[var(--primary-button-text-color)] hover:bg-[var(--primary-button-hover-bg-color)] hover:text-[var(--primary-button-hover-text-color)]&quot;>
+    <span>Connect with Us</span>
+  </a>
+</div>
+</div>
+</div>
+</section>
+<section class=&quot;py-4 md:py-8 code-section&quot; id=&quot;spyf8z8&quot;>
+<div class=&quot;container mx-auto py-12 xl:px-12 2xl:px-36&quot;>
+<div class=&quot;flex flex-col items-stretch lg:flex-row&quot;>
+<div class=&quot;relative flex-1 p-10 lg:w-1/2&quot;>
+  <div class=&quot;absolute bottom-0 right-0 z-0 h-4/5 w-4/5 bg-[var(--dark-background-color)]&quot;></div>
+  <img class=&quot;relative bottom-10 right-10 z-[1] aspect-square object-cover lg:absolute xl:relative xl:bottom-0 xl:right-0&quot; src=&quot;https://imagedelivery.net/xaKlCos5cTg_1RWzIu_h-A/05a6de6f-d61f-46d9-bd93-ad69fb291400/public&quot; data-landingsite-gallery-type=&quot;image&quot; alt=&quot;Warm rustic living room with high ceilings, leather seating, and natural light&quot; data-media=&quot;{&amp;quot;id&amp;quot;:&amp;quot;2207478978&amp;quot;,&amp;quot;src&amp;quot;:&amp;quot;iStock&amp;quot;,&amp;quot;type&amp;quot;:&amp;quot;image&amp;quot;}&quot;>
+  <div class=&quot;absolute bottom-0 right-0 z-[2] h-2/5 w-1/2 bg-[var(--light-text-color)] pl-3 pt-3&quot;>
+    <div class=&quot;flex h-full w-full flex-col items-center justify-center bg-[var(--primary-color)] p-10 text-[var(--light-text-color)]&quot;>
+      <div class=&quot;mb-2 text-6xl font-bold&quot;>10+</div>
+      <div>Years in Business</div>
+    </div>
+  </div>
+</div>
+<div class=&quot;px-14 pt-10 lg:w-1/2&quot;>
+  <h3 class=&quot;pb-4 text-base font-medium uppercase tracking-widest text-[var(--primary-color)]&quot;>About Inspire Ambience</h3>
+  <h1 class=&quot;mb-6 border-b-8 border-[var(--primary-color)] text-2xl font-semibold text-[var(--dark-text-color)] [font-family:var(--font-family-heading)] sm:text-3xl md:text-4xl&quot;>Elevate Your Space with Artistic Design</h1>
+  <p class=&quot;mb-8 text-base font-normal tracking-wide text-[var(--gray-text-color)]&quot;>Transform your environment into an inspiring haven that showcases your personality. Inspire Ambience specializes in creating custom interiors that harmonize elegance with functionality, making your space not just beautiful but also livable.</p>
+  <div class=&quot;mb-8 flex flex-row space-x-6&quot;>
+    <div class=&quot;flex flex-1 flex-col&quot;>
+      <div class=&quot;mb-3 flex h-14 w-14 items-center justify-center rounded-full bg-[var(--primary-color)] text-3xl text-[var(--light-text-color)]&quot;><i class=&quot;fa-thin fa-bullseye-arrow&quot; aria-hidden=&quot;true&quot;></i></div>
+      <div class=&quot;mb-1 text-2xl font-medium&quot;>Our Commitment</div>
+      <div class=&quot;tracking-wide text-[var(--gray-text-color)]&quot;>Crafting breathtaking interiors tailored to your lifestyle.</div>
+    </div>
+    <div class=&quot;flex flex-1 flex-col&quot;>
+      <div class=&quot;mb-3 flex h-14 w-14 items-center justify-center rounded-full bg-[var(--primary-color)] text-3xl text-[var(--light-text-color)]&quot;><i class=&quot;fa-regular fa-eye&quot; aria-hidden=&quot;true&quot;></i></div>
+      <div class=&quot;mb-1 text-2xl font-medium&quot;>Our Vision</div>
+      <div class=&quot;tracking-wide text-[var(--gray-text-color)]&quot;>Making stunning designs accessible to every homeowner and business.</div>
+    </div>
+  </div><a href=&quot;/contact&quot; class=&quot;inline-block bg-[var(--primary-button-bg-color)] px-[var(--button-padding-x)] py-[var(--button-padding-y)] text-base font-semibold uppercase tracking-widest text-[var(--primary-button-text-color)] hover:bg-[var(--primary-button-hover-bg-color)] hover:text-[var(--primary-button-hover-text-color)]&quot;>Get in Touch</a>
+</div>
+</div>
+</div>
+</section>
+<section class=&quot;relative code-section&quot; id=&quot;sj78utp&quot;>
+<div class=&quot;absolute inset-0 h-[30rem] w-full bg-cover bg-center object-cover brightness-[.25] bg-[url(&amp;quot;https://imagedelivery.net/xaKlCos5cTg_1RWzIu_h-A/cc0e4b05-54dc-44d7-c8f8-826f02a30a00/publicContain&amp;quot;)]&quot; data-landingsite-gallery-type=&quot;image&quot; aria-label=&quot;Cozy modern kitchen room interior design with dark green wall- 3D rendering&quot; data-media=&quot;{&amp;quot;id&amp;quot;:&amp;quot;2128765936&amp;quot;,&amp;quot;src&amp;quot;:&amp;quot;iStock&amp;quot;,&amp;quot;type&amp;quot;:&amp;quot;image&amp;quot;}&quot;></div>
+<div class=&quot;container relative z-10 mx-auto py-24 xl:px-12 2xl:px-36&quot;>
+<div class=&quot;text-center text-[var(--light-text-color)]&quot;>
+<h3 class=&quot;pb-4 text-base font-medium uppercase tracking-widest text-[var(--primary-color)]&quot;>Our Offerings</h3>
+<h2 class=&quot;mx-auto mb-6 text-center text-3xl font-semibold [font-family:var(--font-family-heading)] md:text-4xl&quot;>Transforming Interiors into Exquisite Spaces</h2>
+<p class=&quot;mb-8 text-center text-xl&quot;>Experience a seamless blend of modern design and functionality, crafted to elevate your everyday living and working environments.</p>
+</div>
+<div class=&quot;flex flex-wrap px-4 lg:mt-28 lg:grid lg:flex-none lg:grid-cols-3 lg:place-items-center lg:items-stretch lg:justify-center lg:gap-x-6 lg:gap-y-6&quot;>
+<div class=&quot;w-full p-6 md:w-1/2 lg:w-auto lg:p-0&quot;>
+  <div class=&quot;h-full bg-[#ffffff] p-6 shadow-xl&quot;>
+    <div class=&quot;mb-12 mt-2 flex h-6 w-6 items-center justify-center bg-[var(--dark-background-color)]&quot;>
+      <div class=&quot;relative left-5 top-4 text-5xl text-[var(--primary-color)]&quot;><i class=&quot;fa-light fa-cogs&quot; aria-hidden=&quot;true&quot;></i></div>
+    </div>
+    <h4 class=&quot;mb-6 text-2xl font-semibold&quot;>Bespoke Interior Solutions</h4>
+    <p class=&quot;mb-6 font-light text-[var(--dark-text-color)]&quot;>Tailored designs that address your unique needs, from stylish living spaces to functional office environments.</p>
+  </div>
+</div>
+<div class=&quot;relative w-full p-6 md:w-1/2 lg:-top-12 lg:w-auto lg:p-0&quot;>
+  <div class=&quot;h-full bg-[var(--primary-color)] p-6 shadow-xl&quot;>
+    <div class=&quot;mb-12 mt-2 flex h-6 w-6 items-center justify-center bg-[#ffffff]&quot;>
+      <div class=&quot;relative left-5 top-4 text-5xl text-[var(--dark-text-color)]&quot;><i class=&quot;fa-light fa-tv&quot; aria-hidden=&quot;true&quot;></i></div>
+    </div>
+    <h4 class=&quot;mb-6 text-2xl font-semibold text-[var(--light-text-color)]&quot;>Custom Entertainment Units</h4>
+    <p class=&quot;mb-6 font-light text-[var(--light-text-color)]&quot;>Modern TV units designed to enhance your living area while reflecting your style and elevating your entertainment experience.</p>
+  </div>
+</div>
+<div class=&quot;w-full p-6 lg:w-auto lg:p-0&quot;>
+  <div class=&quot;h-full bg-[#ffffff] p-6 shadow-xl&quot;>
+    <div class=&quot;mb-12 mt-2 flex h-6 w-6 items-center justify-center bg-[var(--dark-background-color)]&quot;>
+      <div class=&quot;relative left-5 top-4 text-5xl text-[var(--primary-color)]&quot;><i class=&quot;fa-light fa-utensils&quot; aria-hidden=&quot;true&quot;></i></div>
+    </div>
+    <h4 class=&quot;mb-6 text-2xl font-semibold&quot;>Modular Kitchen Designs</h4>
+    <p class=&quot;mb-6 font-light text-[var(--dark-text-color)]&quot;>Innovative kitchen designs that inspire culinary creativity, ensuring functionality meets elegance in every meal prep.</p>
+  </div>
+</div>
+<div class=&quot;w-full p-6 md:w-1/2 lg:w-auto lg:p-0&quot;>
+  <div class=&quot;h-full bg-[#ffffff] p-6 shadow-xl&quot;>
+    <div class=&quot;mb-12 mt-2 flex h-6 w-6 items-center justify-center bg-[var(--dark-background-color)]&quot;>
+      <div class=&quot;relative left-5 top-4 text-5xl text-[var(--primary-color)]&quot;><i class=&quot;fa-light fa-briefcase&quot; aria-hidden=&quot;true&quot;></i></div>
+    </div>
+    <h4 class=&quot;mb-6 text-2xl font-semibold&quot;>Elegant Workspace Solutions</h4>
+    <p class=&quot;mb-6 font-light text-[var(--dark-text-color)]&quot;>Transform your office into a productive space with tailored designs that foster creativity and streamline work efficiency.</p>
+  </div>
+</div>
+<div class=&quot;relative w-full p-6 md:w-1/2 lg:-top-12 lg:w-auto lg:p-0&quot;>
+  <div class=&quot;h-full bg-[var(--primary-color)] p-6 shadow-xl&quot;>
+    <div class=&quot;mb-12 mt-2 flex h-6 w-6 items-center justify-center bg-[#ffffff] text-4xl&quot;>
+      <div class=&quot;relative left-5 top-4 text-5xl text-[var(--dark-text-color)]&quot;><i class=&quot;fa-light fa-paint-brush&quot; aria-hidden=&quot;true&quot;></i></div>
+    </div>
+    <h4 class=&quot;mb-6 text-2xl font-semibold text-[var(--light-text-color)]&quot;>Creative Design Process</h4>
+    <p class=&quot;mb-6 font-light text-[var(--light-text-color)]&quot;>Utilizing cutting-edge 3D design techniques alongside curated materials to realize your vision effectively and beautifully.</p>
+  </div>
+</div>
+<div class=&quot;w-full p-6 lg:w-auto lg:p-0&quot;>
+  <div class=&quot;h-full bg-[#ffffff] p-6 shadow-xl&quot;>
+    <div class=&quot;mb-12 mt-2 flex h-6 w-6 items-center justify-center bg-[var(--dark-background-color)] text-4xl&quot;>
+      <div class=&quot;relative left-5 top-4 text-5xl text-[var(--primary-color)]&quot;><i class=&quot;fa-light fa-home&quot; aria-hidden=&quot;true&quot;></i></div>
+    </div>
+    <h4 class=&quot;mb-6 text-2xl font-semibold&quot;>Diverse Interior Services</h4>
+    <p class=&quot;mb-6 font-light text-[var(--dark-text-color)]&quot;>Whether it's residential or commercial, our comprehensive services ensure a perfect ambiance tailored to your needs.</p>
+  </div>
+</div>
+</div>
+</div>
+</section>
+<section class=&quot;bg-[var(--light-background-color)] code-section&quot; id=&quot;sucup7&quot;>
+<div class=&quot;container relative z-10 mx-auto py-24 xl:px-12 2xl:px-36&quot;>
+<h3 class=&quot;pb-4 text-center text-base font-medium uppercase tracking-widest text-[var(--primary-color)]&quot;>Gallery</h3>
+<h2 class=&quot;md:text-4x mx-auto mb-6 text-center text-4xl font-bold&quot;><span class=&quot;border-b-4 border-[var(--primary-color)] [font-family:var(--font-family-heading)]&quot;>Discover Our Transformative Designs</span></h2>
+<div class=&quot;grid grid-cols-2 gap-x-6 gap-y-6 lg:grid-cols-3&quot;>
+<img class=&quot;aspect-square object-cover&quot; src=&quot;https://imagedelivery.net/xaKlCos5cTg_1RWzIu_h-A/86b78087-e8e5-4a53-3e43-ddc37f43ad00/public&quot; alt=&quot;Interior designer and customer choosing home design materials from acoustic panel samples in the design store.&quot; data-landingsite-gallery-type=&quot;image&quot; data-media=&quot;{&amp;quot;id&amp;quot;:&amp;quot;2050652507&amp;quot;,&amp;quot;src&amp;quot;:&amp;quot;iStock&amp;quot;,&amp;quot;type&amp;quot;:&amp;quot;image&amp;quot;}&quot;>
+<img class=&quot;aspect-square object-cover&quot; src=&quot;https://imagedelivery.net/xaKlCos5cTg_1RWzIu_h-A/00c402a0-cea6-43ee-1723-97531f14ef00/publicContain&quot; alt=&quot;Corner view of green home kitchen interior with bar counter, sink and stove, dishes and plates on shelf. Cooking space in modern apartment with panoramic arched window. 3D rendering&quot; data-landingsite-gallery-type=&quot;image&quot; data-media=&quot;{&amp;quot;id&amp;quot;:&amp;quot;2147510422&amp;quot;,&amp;quot;src&amp;quot;:&amp;quot;iStock&amp;quot;,&amp;quot;type&amp;quot;:&amp;quot;image&amp;quot;}&quot;>
+<img class=&quot;aspect-square object-cover&quot; src=&quot;https://imagedelivery.net/xaKlCos5cTg_1RWzIu_h-A/866ec468-1dbc-4bcc-fc78-60279a937a00/public&quot; alt=&quot;Mid-century modern home design, interior of living room ,armchair with wood cabinet ,TV wall mounted,3d render&quot; data-landingsite-gallery-type=&quot;image&quot; data-media=&quot;{&amp;quot;id&amp;quot;:&amp;quot;1917431441&amp;quot;,&amp;quot;src&amp;quot;:&amp;quot;iStock&amp;quot;,&amp;quot;type&amp;quot;:&amp;quot;image&amp;quot;}&quot;>
+<img class=&quot;aspect-square object-cover&quot; src=&quot;https://imagedelivery.net/xaKlCos5cTg_1RWzIu_h-A/f4f226dc-89c6-41af-610d-8066ab413100/publicContain&quot; alt=&quot;A serene Scandinavian corner featuring a golden velvet sofa and organic elements, creating a tranquil and luxurious living space. 3d render&quot; data-auth-src=&quot;null&quot; data-landingsite-gallery-type=&quot;image&quot; data-media=&quot;{&amp;quot;id&amp;quot;:&amp;quot;2040197630&amp;quot;,&amp;quot;src&amp;quot;:&amp;quot;iStock&amp;quot;,&amp;quot;type&amp;quot;:&amp;quot;image&amp;quot;}&quot;>
+<img class=&quot;aspect-square object-cover&quot; src=&quot;https://imagedelivery.net/xaKlCos5cTg_1RWzIu_h-A/987889c0-8523-4b77-6cf9-78abff0b0800/publicContain&quot; alt=&quot;Minimalist living room interior with modern fireplace and white walls. Interior mockup&quot; data-auth-src=&quot;null&quot; data-landingsite-gallery-type=&quot;image&quot; data-media=&quot;{&amp;quot;id&amp;quot;:&amp;quot;2077892760&amp;quot;,&amp;quot;src&amp;quot;:&amp;quot;iStock&amp;quot;,&amp;quot;type&amp;quot;:&amp;quot;image&amp;quot;}&quot;>
+<img class=&quot;aspect-square object-cover&quot; src=&quot;https://imagedelivery.net/xaKlCos5cTg_1RWzIu_h-A/c459bd3f-7a34-463a-682a-0f55b05d8300/publicContain&quot; alt=&quot;Modern living room with open sliding doors leading to a patio and garden area with lounge chairs and a pool.&quot; data-landingsite-gallery-type=&quot;image&quot; data-media=&quot;{&amp;quot;id&amp;quot;:&amp;quot;2175973061&amp;quot;,&amp;quot;src&amp;quot;:&amp;quot;iStock&amp;quot;,&amp;quot;type&amp;quot;:&amp;quot;image&amp;quot;}&quot;>
+</div>
+</div>
+</section>
+<section class=&quot;code-section&quot; id=&quot;sh6cfgh&quot;>
+<div class=&quot;container relative z-10 mx-auto px-4 py-24 xl:px-12 2xl:px-36&quot;>
+<h3 class=&quot;pb-4 text-center text-base font-medium uppercase tracking-widest text-[var(--primary-color)]&quot;>Testimonials</h3>
+<h2 class=&quot;md:text-4x mx-auto mb-12 text-center text-4xl font-bold&quot;><span class=&quot;border-b-4 border-[var(--primary-color)] [font-family:var(--font-family-heading)]&quot;>What Our Clients Think</span></h2>
+<div class=&quot;flex flex-col items-center justify-center space-y-12 lg:flex-row lg:space-x-6 lg:space-y-0&quot;>
+<div class=&quot;max-w-96 relative flex flex-col items-center justify-center rounded-md bg-[#ffffff] py-12 shadow-[0_0_6px_1px_rgba(0,0,0,0.1)] lg:w-96&quot;>
+  <div class=&quot;absolute right-4 top-2&quot;><i class=&quot;fa-sharp fa-solid fa-quote-left text-5xl text-[var(--primary-color)]&quot; aria-hidden=&quot;true&quot;></i></div>
+  <img class=&quot;mb-8 h-[75px] w-[75px] rounded-full object-cover&quot; src=&quot;https://media.gettyimages.com/id/2188060418/photo/young-businessman-smiling-at-camera.jpg?b=1&amp;amp;s=612x612&amp;amp;w=0&amp;amp;k=20&amp;amp;c=_gEBHvNUfO_4Zm3fwhw7Ph6bOVFWjf9OHIJ6s1If9t4=&quot; alt=&quot;Customer&quot; data-landingsite-gallery-type=&quot;image&quot; data-testimonial-image=&quot;&quot; data-dont-replace=&quot;&quot; data-media=&quot;{&amp;quot;id&amp;quot;:&amp;quot;2188060418&amp;quot;,&amp;quot;src&amp;quot;:&amp;quot;iStock&amp;quot;,&amp;quot;type&amp;quot;:&amp;quot;image&amp;quot;}&quot;>
+  <div class=&quot;mb-2&quot;>
+    <i class=&quot;fa-solid fa-star fa-xs text-yellow-500&quot; aria-hidden=&quot;true&quot;></i>
+    <i class=&quot;fa-solid fa-star fa-xs text-yellow-500&quot; aria-hidden=&quot;true&quot;></i>
+    <i class=&quot;fa-solid fa-star fa-xs text-yellow-500&quot; aria-hidden=&quot;true&quot;></i>
+    <i class=&quot;fa-solid fa-star fa-xs text-yellow-500&quot; aria-hidden=&quot;true&quot;></i>
+    <i class=&quot;fa-solid fa-star fa-xs text-yellow-500&quot; aria-hidden=&quot;true&quot;></i>
+  </div>
+  <div class=&quot;mb-4 px-10 text-center font-thin tracking-wide text-[var(--dark-text-color)]&quot;>&quot;Working with Inspire Ambience was a game-changer for my home. They understood my vision perfectly and transformed my living area into an elegant space that complements my lifestyle. The attention to detail is simply unmatched!&quot;</div>
+  <div class=&quot;font-medium uppercase tracking-wide&quot;>Priya K.</div>
+  <div class=&quot;font-medium tracking-wide text-[var(--primary-color)]&quot;>Homeowner</div>
+</div>
+<div class=&quot;max-w-96 relative flex flex-col items-center justify-center rounded-md bg-[#ffffff] py-12 shadow-[0_0_6px_1px_rgba(0,0,0,0.1)] lg:w-96&quot;>
+  <div class=&quot;absolute right-4 top-2&quot;><i class=&quot;fa-sharp fa-solid fa-quote-left text-5xl text-[var(--primary-color)]&quot; aria-hidden=&quot;true&quot;></i></div>
+  <img class=&quot;mb-8 h-[75px] w-[75px] rounded-full object-cover&quot; src=&quot;https://media.gettyimages.com/id/2156062809/photo/headshot-closeup-portrait-middle-eastern-israel-businesswoman-business-lady-standing-isolated.jpg?b=1&amp;amp;s=612x612&amp;amp;w=0&amp;amp;k=20&amp;amp;c=mPEqaET5s98W_40DmBTRbYY5z0F-_1YkqdC4TCHJeig=&quot; alt=&quot;Customer&quot; data-landingsite-gallery-type=&quot;image&quot; data-testimonial-image=&quot;&quot; data-dont-replace=&quot;&quot; data-media=&quot;{&amp;quot;id&amp;quot;:&amp;quot;2156062809&amp;quot;,&amp;quot;src&amp;quot;:&amp;quot;iStock&amp;quot;,&amp;quot;type&amp;quot;:&amp;quot;image&amp;quot;}&quot;>
+  <div class=&quot;mb-2&quot;>
+    <i class=&quot;fa-solid fa-star fa-xs text-yellow-500&quot; aria-hidden=&quot;true&quot;></i>
+    <i class=&quot;fa-solid fa-star fa-xs text-yellow-500&quot; aria-hidden=&quot;true&quot;></i>
+    <i class=&quot;fa-solid fa-star fa-xs text-yellow-500&quot; aria-hidden=&quot;true&quot;></i>
+    <i class=&quot;fa-solid fa-star fa-xs text-yellow-500&quot; aria-hidden=&quot;true&quot;></i>
+    <i class=&quot;fa-solid fa-star fa-xs text-yellow-500&quot; aria-hidden=&quot;true&quot;></i>
+  </div>
+  <div class=&quot;mb-4 px-10 text-center font-thin tracking-wide text-[var(--dark-text-color)]&quot;>&quot;Inspire Ambience took my office from drab to fab! The modern design they crafted not only enhances productivity but also creates an inviting atmosphere for my clients. Their professionalism and creativity exceeded my expectations.&quot;</div>
+  <div class=&quot;font-medium uppercase tracking-wide&quot;>Ravi S.</div>
+  <div class=&quot;font-medium tracking-wide text-[var(--primary-color)]&quot;>Business Owner</div>
+</div>
+<div class=&quot;max-w-96 relative flex flex-col items-center justify-center rounded-md bg-[#ffffff] py-12 shadow-[0_0_6px_1px_rgba(0,0,0,0.1)] lg:w-96&quot;>
+  <div class=&quot;absolute right-4 top-2&quot;><i class=&quot;fa-sharp fa-solid fa-quote-left text-5xl text-[var(--primary-color)]&quot; aria-hidden=&quot;true&quot;></i></div>
+  <img class=&quot;mb-8 h-[75px] w-[75px] rounded-full object-cover&quot; src=&quot;https://media.gettyimages.com/id/1408899475/photo/portrait-of-a-happy-businesswoman-smiling-at-the-camera.jpg?b=1&amp;amp;s=612x612&amp;amp;w=0&amp;amp;k=20&amp;amp;c=w7PTngo2hs688Xrsn7AorGtygCJhPj41ZbMlf2rE1Ps=&quot; alt=&quot;Customer&quot; data-landingsite-gallery-type=&quot;image&quot; data-testimonial-image=&quot;&quot; data-dont-replace=&quot;&quot; data-media=&quot;{&amp;quot;id&amp;quot;:&amp;quot;1408899475&amp;quot;,&amp;quot;src&amp;quot;:&amp;quot;iStock&amp;quot;,&amp;quot;type&amp;quot;:&amp;quot;image&amp;quot;}&quot;>
+  <div class=&quot;mb-2&quot;>
+    <i class=&quot;fa-solid fa-star fa-xs text-yellow-500&quot; aria-hidden=&quot;true&quot;></i>
+    <i class=&quot;fa-solid fa-star fa-xs text-yellow-500&quot; aria-hidden=&quot;true&quot;></i>
+    <i class=&quot;fa-solid fa-star fa-xs text-yellow-500&quot; aria-hidden=&quot;true&quot;></i>
+    <i class=&quot;fa-solid fa-star fa-xs text-yellow-500&quot; aria-hidden=&quot;true&quot;></i>
+    <i class=&quot;fa-solid fa-star fa-xs text-yellow-500&quot; aria-hidden=&quot;true&quot;></i>
+  </div>
+  <div class=&quot;mb-4 px-10 text-center font-thin tracking-wide text-[var(--dark-text-color)]&quot;>&quot;From the initial consultation to the final touches, the team at Inspire Ambience was attentive and dedicated. My modular kitchen is now both beautiful and functional, making cooking a joy. I can't recommend them enough!&quot;</div>
+  <div class=&quot;font-medium uppercase tracking-wide&quot;>Sneha T.</div>
+  <div class=&quot;font-medium tracking-wide text-[var(--primary-color)]&quot;>Culinary Enthusiast</div>
+</div>
+</div>
+</div>
+</section>
+<section class=&quot;relative bg-[var(--light-background-color)] code-section&quot; id=&quot;s73aoqp&quot;>
+<div class=&quot;absolute inset-0 h-[30rem] w-full bg-cover bg-center object-cover brightness-[.25] bg-[url(&amp;quot;https://imagedelivery.net/xaKlCos5cTg_1RWzIu_h-A/50645538-5334-4616-371b-24d4fed6f900/public&amp;quot;)]&quot; data-landingsite-gallery-type=&quot;image&quot; aria-label=&quot;Interior designer workspace table and architecture software on laptop screen with mood board materials and colorful swatch color for color selection. Modern interior design office. Insight&quot; data-media=&quot;{&amp;quot;id&amp;quot;:&amp;quot;1997133612&amp;quot;,&amp;quot;src&amp;quot;:&amp;quot;iStock&amp;quot;,&amp;quot;type&amp;quot;:&amp;quot;image&amp;quot;}&quot;></div>
+<div class=&quot;container relative z-10 mx-auto px-6 py-24 xl:px-12 2xl:px-36&quot;>
+<div class=&quot;text-center text-white&quot;>
+<h3 class=&quot;pb-4 text-base font-medium uppercase tracking-widest text-[var(--primary-color)]&quot;>Get In Touch</h3>
+<h2 class=&quot;mx-auto mb-6 text-center text-3xl font-semibold md:text-4xl&quot;><span class=&quot;border-b-4 border-[var(--primary-color)] [font-family:var(--font-family-heading)]&quot;>Transform Your Space with Us</span></h2>
+<p class=&quot;mb-8 text-center text-xl font-thin&quot;>Transform your vision into a stunning reality. Connect with us to create interiors that inspire and engage.</p>
+</div>
+<div class=&quot;flex flex-col bg-[#ffffff] p-8 shadow-2xl lg:flex-row&quot;>
+<div class=&quot;relative overflow-hidden lg:w-1/2&quot;>
+  <div class=&quot;absolute inset-0 h-[30rem] w-full bg-cover bg-center object-cover brightness-[.25] bg-[url(&amp;quot;https://imagedelivery.net/xaKlCos5cTg_1RWzIu_h-A/6995c702-310f-4d9a-b0bc-6a7db2b67a00/publicContain&amp;quot;)]&quot; data-landingsite-gallery-type=&quot;image&quot; aria-label=&quot;Office, interior designer and portrait of business woman with confidence, pride and startup career. Architecture, professional and person at desk for decoration company, creative job and opportunity&quot; data-media=&quot;{&amp;quot;id&amp;quot;:&amp;quot;2177259940&amp;quot;,&amp;quot;src&amp;quot;:&amp;quot;iStock&amp;quot;,&amp;quot;type&amp;quot;:&amp;quot;image&amp;quot;}&quot;></div>
+  <div class=&quot;relative z-[1] p-4 text-white sm:p-10&quot;>
+    <h3 class=&quot;pb-4 text-base font-medium uppercase tracking-widest&quot;>Get In Touch</h3>
+    <h2 class=&quot;mx-auto mb-6 text-xl font-medium sm:text-2xl md:text-4xl&quot;><span class=&quot;border-b-4 border-[var(--primary-color)]&quot;>Contact Us Today</span></h2>
+    <div class=&quot;mb-2 font-light tracking-wider sm:text-lg&quot;><i class=&quot;fa-solid fa-phone mr-2&quot; aria-hidden=&quot;true&quot;></i><span>(555) 123 - 4567</span></div>
+    <div class=&quot;mb-2 font-light tracking-wider sm:text-lg&quot;><i class=&quot;fa-solid fa-envelope mr-2&quot; aria-hidden=&quot;true&quot;></i><span>info@inspireambience.com</span></div>
+    <div class=&quot;mb-2 font-light tracking-wider sm:text-lg&quot;><i class=&quot;fa-solid fa-location-dot mr-2&quot; aria-hidden=&quot;true&quot;></i><span>456 Oak Ave. Hyderabad</span></div>
+    <div class=&quot;mb-2 font-light tracking-wider sm:text-lg&quot;><i class=&quot;fa-solid fa-clock mr-2&quot; aria-hidden=&quot;true&quot;></i><span>Mon - Fri: 9:00am - 5:00pm</span></div>
+  </div>
+</div>
+<div class=&quot;lg:w-1/2&quot;>
+  <form class=&quot;space-y-6 pt-8 sm:p-8&quot; data-landingsite-contact-form=&quot;&quot;>
+    <div><label for=&quot;name&quot; class=&quot;text-bs font-semibold text-[var(--dark-text-color)]&quot;>Full Name</label><input type=&quot;text&quot; name=&quot;name&quot; class=&quot;mt-2 w-full bg-[var(--light-background-color)] p-2 shadow-sm&quot;></div>
+    <div><label for=&quot;email&quot; class=&quot;text-sm font-semibold text-[var(--dark-text-color)]&quot;>Your Email</label><input type=&quot;email&quot; name=&quot;email&quot; class=&quot;mt-2 w-full bg-[var(--light-background-color)] p-2 shadow-sm&quot;></div>
+    <div><label for=&quot;phone&quot; class=&quot;text-sm font-semibold text-[var(--dark-text-color)]&quot;>Contact Number</label><input type=&quot;tel&quot; name=&quot;phone&quot; class=&quot;mt-2 w-full bg-[var(--light-background-color)] p-2 shadow-sm&quot;></div>
+    <div class=&quot;&quot;><label for=&quot;message&quot; class=&quot;text-sm font-semibold text-[var(--dark-text-color)]&quot;>Your Message</label><textarea name=&quot;message&quot; rows=&quot;4&quot; class=&quot;mt-2 w-full bg-[var(--light-background-color)] p-2 shadow-sm&quot;></textarea></div>
+    <div><button type=&quot;submit&quot; class=&quot;w-full bg-[var(--primary-button-bg-color)] px-4 py-3 text-sm font-normal uppercase tracking-wider text-[var(--primary-button-text-color)] hover:bg-[var(--primary-button-hover-bg-color)] hover:bg-[var(--primary-button-hover-text-color)]&quot;>Submit Inquiry</button></div>
+  </form>
+</div>
+</div>
+</div>
+</section></div><div><footer class=&quot;bg-[var(--dark-background-color)] code-section&quot; id=&quot;s04n9rt&quot;>
+<div class=&quot;container mx-auto px-6 py-24 xl:px-12 2xl:px-36&quot;>
+<div class=&quot;grid grid-cols-1 pt-4 md:grid-cols-3 lg:grid-cols-4 lg:space-x-24&quot;>
+<div class=&quot;mb-8&quot;>
+  <a href=&quot;/&quot; class=&quot;mb-8 block text-3xl tracking-wider text-[var(--light-text-color)] [font-family:var(--font-family-heading)]&quot; data-logo=&quot;&quot;><img src=&quot;https://imagedelivery.net/xaKlCos5cTg_1RWzIu_h-A/9b8b1546-ea78-4e0a-8973-365795c69700/publicContain&quot; alt=&quot;Inspire Ambience Logo&quot; class=&quot;h-20&quot;></a>
+  <p class=&quot;text-left font-light tracking-wider text-[var(--light-text-color)]&quot;>At Inspire Ambience, we blend modern design sensibilities with functional artistry to craft breathtaking interiors. Based in Hyderabad, our firm specializes in bespoke interior solutions that reflect our passion for transforming ordinary spaces into extraordinary living experiences.</p>
+  <div class=&quot;my-8 flex flex-row justify-center text-gray-400 md:justify-start&quot;>
+    <a href=&quot;/&quot; class=&quot;mr-3&quot; aria-label=&quot;Visit our Facebook&quot;>
+      <div class=&quot;flex h-8 w-8 items-center justify-center rounded-full bg-[#ffffff]&quot;><i class=&quot;fa-brands fa-facebook-f text-[var(--primary-color)]&quot; aria-hidden=&quot;true&quot;></i></div>
+    </a>
+    <a href=&quot;/&quot; class=&quot;mr-3&quot; aria-label=&quot;Visit our Twitter&quot;>
+      <div class=&quot;flex h-8 w-8 items-center justify-center rounded-full bg-[#ffffff]&quot;><i class=&quot;fa-brands fa-x-twitter text-[var(--primary-color)]&quot; aria-hidden=&quot;true&quot;></i></div>
+    </a>
+    <a href=&quot;/&quot; class=&quot;mr-3&quot; aria-label=&quot;Visit our Instagram&quot;>
+      <div class=&quot;flex h-8 w-8 items-center justify-center rounded-full bg-[#ffffff]&quot;><i class=&quot;fa-brands fa-instagram text-[var(--primary-color)]&quot; aria-hidden=&quot;true&quot;></i></div>
+    </a>
+    <a href=&quot;/&quot; class=&quot;mr-3&quot; aria-label=&quot;Visit our LinkedIn&quot;>
+      <div class=&quot;flex h-8 w-8 items-center justify-center rounded-full bg-[#ffffff]&quot;><i class=&quot;fa-brands fa-linkedin-in text-[var(--primary-color)]&quot; aria-hidden=&quot;true&quot;></i></div>
+    </a>
+  </div>
+</div>
+<div class=&quot;mb-8&quot;>
+  <div class=&quot;mb-8 border-b-2 border-[var(--primary-color)] pb-4 text-xl tracking-wide text-[var(--light-text-color)]&quot;>Helpful Links</div>
+  <a href=&quot;/&quot; class=&quot;mb-2 block font-light text-[var(--light-text-color)]&quot;>Home</a>
+  <a href=&quot;/about&quot; class=&quot;mb-2 block font-light text-[var(--light-text-color)]&quot;>About Us</a>
+  <a href=&quot;/services&quot; class=&quot;mb-2 block font-light text-[var(--light-text-color)]&quot;>Services</a>
+  <a href=&quot;/portfolio&quot; class=&quot;portfolio-link mb-2 block font-light text-[var(--light-text-color)]&quot;>Portfolio</a>
+  <a href=&quot;/contact&quot; class=&quot;mb-2 block font-light text-[var(--light-text-color)]&quot;>Contact</a>
+  <a href=&quot;/blog&quot; class=&quot;mb-2 block font-light text-[var(--light-text-color)]&quot;>Blog</a>
+</div>
+<div class=&quot;mb-8 lg:col-span-2&quot;>
+  <div class=&quot;mb-8 border-b-2 border-[var(--primary-color)] pb-4 text-xl tracking-wide text-[var(--light-text-color)]&quot;>Reach Us</div>
+  <div class=&quot;mb-2 flex flex-row font-light tracking-wider text-[var(--light-text-color)] items-center&quot;><i class=&quot;fa-solid fa-phone mr-2 w-6 flex-none text-[var(--primary-color)]&quot; aria-hidden=&quot;true&quot;></i><span class=&quot;&quot;>(555) 123 - 4567</span></div>
+  <div class=&quot;mb-2 flex flex-row font-light tracking-wider text-[var(--light-text-color)] items-center&quot;><i class=&quot;fa-solid fa-envelope mr-2 w-6 flex-none text-[var(--primary-color)]&quot; aria-hidden=&quot;true&quot;></i><span class=&quot;w-[90%] break-words&quot;>info@inspireambience.com</span></div>
+  <div class=&quot;mb-2 flex flex-row font-light tracking-wider text-[var(--light-text-color)] items-center&quot;><i class=&quot;fa-solid fa-location-dot mr-2 w-6 flex-none text-[var(--primary-color)]&quot; aria-hidden=&quot;true&quot;></i><span class=&quot;&quot;>&amp;nbsp;Hyderabad, India</span></div>
+  <div class=&quot;mb-2 flex flex-row font-light tracking-wider text-[var(--light-text-color)] items-center&quot;><i class=&quot;fa-solid fa-clock mr-2 w-6 flex-none text-[var(--primary-color)]&quot; aria-hidden=&quot;true&quot;></i><span class=&quot;&quot;>Mon - Fri: 9:00am - 5:00pm</span></div>
+</div>
+</div>
+<p class=&quot;border-t-2 border-[var(--dark-border-color)] py-4 text-left text-sm text-[var(--gray-text-color)]&quot;>© 2025 Inspire Ambience, All Rights Reserved</p>
+</div>
+</footer></div></div><script src=&quot;/embed/main.umd.js&quot;></script>
+      </div>
+    </div>
+  </body></html>" style="width: 100%;"></iframe>
